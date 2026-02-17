@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18672348.svg)](https://doi.org/10.5281/zenodo.18672348)
+
 # TFMethyl DNAm aging-clock
 
 **Source code for the work "Enhancing the performance and interpretability of epigenetic clocks"**
@@ -15,8 +17,8 @@ This repository contains the workflow, code, and model developed during the work
 
 | Element           | Description                                                                                                                                                                                    |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `./Run_TFMethyl`   | Standalone package implementation of the epigenetic age prediction model for humans. Contains the trained model, execution scripts, and a small toy dataset in the required input format.      |
-| `./helper_scripts` | Utility scripts for generating genome-wide TFBS annotations, performing footprinting analysis, and checking required R packages for `Analysis.Rmd`. See README inside for details.             |
+| `Run_TFMethyl`    | Standalone package implementation of the epigenetic age prediction model for humans. Contains the trained model, execution scripts, and a small toy dataset in the required input format.      |
+| `helper_scripts`  | Utility scripts for generating genome-wide TFBS annotations, performing footprinting analysis, and checking required R packages for `Analysis.Rmd`. See README inside for details.             |
 | `Analysis.Rmd`    | R Markdown source used to generate figures and perform analyses for the study *“Enhancing the performance and interpretability of epigenetic clocks”*.                                         |
 | `Analysis.html`   | Knitted HTML output of `Analysis.Rmd`, provided for convenient viewing in a web browser.                                                                                                       |
 
