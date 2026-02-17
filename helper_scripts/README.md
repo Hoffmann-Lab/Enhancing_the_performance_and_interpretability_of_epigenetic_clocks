@@ -8,7 +8,8 @@ Directory Contents:
 
     > Footprinting.sh: Performs ATAC-seq footprinting analysis to identify putative transcription factor binding events. Input is BAM files generated from the last step, and other standard genomic files. 
 
-
+    > packages_check.R: Check for all the packages needed to run Analysis.Rmd, and if any are missing, install them (from CRAN or Bioconductor as appropriate)
+    
 Tools required (versions as implied by bashbone, unless specified): 
 
 | Script               | Tool                           | Purpose                                                                       |
@@ -29,5 +30,6 @@ Tools required (versions as implied by bashbone, unless specified):
 |                      | **TOBIAS** (v0.17.3)           | Transcription factor Occupancy prediction By Investigation of ATAC-seq Signal |
 |                      | **awk / sed / coreutils**      | Text and file processing                                                      |
 |                      | **bashbone**                   | Workflow control and parallel execution                                       |
+| `packages_check.R`   | **R**      	                | To check necessary packages used in Analysis.Rmd                              |
 
 NOTE:Paths to reference genomes, indices, and software installations must be adjusted to your local environment.
