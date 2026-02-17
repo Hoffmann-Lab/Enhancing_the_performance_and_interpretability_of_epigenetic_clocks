@@ -13,15 +13,12 @@ This repository contains the workflow, code, and model developed during the work
 
 ## Repository Structure
 
-| Script               |  Description                                                                                                                                        |
-| -------------------- | -----------------------------------------------------------------------------------------------------------------------------------------------     |
-|                                                                                                                                                                            |
-| `/Run_TFMethyl`      | The newly developed epigenetic age prediction model for humans. Package contains trained model, script for execution, and a toy dataset in desired input format.                                                                                                                                                                      |
-| `/helper_scripts`    | Scripts for creating TFBS whole genome annotations, performing footprinting analysis, and checking necessary R packages for `Analysis.Rmd`. More information available at `./helper_scripts/README`.                                                                                                                                                |
-|                                                                                                                                                                            |
-| `Analysis.Rmd`       | Source code for generating in-text figures and performing other necessary analyses for the study "Enhancing the performance and interpretability of epigenetic clocks".                                                                                                                                                                     |
-| `Analysis.html`      | The knitted executed version of `Analysis.Rmd` for viewing in a web browser.                                                                        |
-|                                                                                                                                                                            |
+| Element           | Description                                                                                                                                                                                    |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `/Run_TFMethyl`   | Standalone implementation of the epigenetic age prediction model for humans. Contains the trained model, execution scripts, and a small toy dataset in the required input format.              |
+| `/helper_scripts` | Utility scripts for generating genome-wide TFBS annotations, performing footprinting analysis, and checking required R packages for `Analysis.Rmd`. See `./helper_scripts/README` for details. |
+| `Analysis.Rmd`    | R Markdown source used to generate figures and perform analyses for the study *“Enhancing the performance and interpretability of epigenetic clocks”*.                                         |
+| `Analysis.html`   | Knitted HTML output of `Analysis.Rmd`, provided for convenient viewing in a web browser.                                                                                                       |
 
 ---
 
