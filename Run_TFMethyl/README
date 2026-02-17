@@ -1,6 +1,6 @@
 # TFMethyl Clock
 
-**Author:** Tushar Patel (Tushar.Patel@leibniz-fli.de)  
+**Author:** Tushar Patel (Tushar.Patel@leibniz-fli.de; tusharpatel51099@gmail.com)  
 **Date:** 29-01-2026  
 
 ## Description
@@ -19,6 +19,9 @@ chronological age (years).
 - DNA methylation beta values  
 - Matrix or data.frame with **CpGs as rows and samples as columns**
 - CpG IDs must match Illumina 450K annotation
+
+## Required
+- R version 4.4.0 (or above); data.table 1.17.6; glmnet 4.1-9
 
 ## Usage
 In R:
